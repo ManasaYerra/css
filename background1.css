@@ -1,0 +1,17 @@
+body {
+    width: 95%;
+    height: 3000px;
+    background-image: url(../../asset/image/sun.png),url(../../asset/image/pluto.png),url(../../asset/image/star.png);
+    background-repeat: no-repeat;
+    background-size: 500px,100px,100%,3100px;
+    background-position: -200px -200px,center left,center;
+    background-attachment: fixed,scroll,scroll;
+}
+img {
+    width: 150px;
+    float: right;
+}
+marquee {
+    height: 3000px;
+    float: right;
+}

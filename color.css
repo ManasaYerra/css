@@ -1,0 +1,22 @@
+body {
+
+    background-color: plum;
+}
+#byName {
+    color: red;
+}
+#byUsingRGB {
+    color: rgb(49, 179, 99);
+}
+#byUsingRGBA {
+    color: rgba(116, 100, 12, 0.704);
+}
+#byHex {
+    color: #143143;
+}
+#byhexAlpha {
+    color: #14314388;
+}
+#byUsingHSL {
+    color: hsl(68, 0%, 50%);
+}

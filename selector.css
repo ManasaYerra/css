@@ -1,0 +1,94 @@
+/* * { 
+    color: aqua;
+    background-color: brown;
+} */
+/* h1 {
+    color: blueviolet;
+}
+p {
+    color: orange;
+} */
+/* #vk {
+    color: palevioletred;
+}
+#pk {
+    color: purple;
+}
+#my {
+    color: grey;
+    background-color:plum ;
+}
+.brown {
+    color: aquamarine;
+}
+.bg_orange {
+    background-color: aqua;
+}
+/* .dimenction {
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+} */
+
+/* p,.bg_orange,#brown {
+    width: 300px;
+    height: 300px;
+    background-color: lightseagreen;
+} */
+ /* h1{
+    float: left;
+}
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+#yellow {
+    color: yellow;
+}
+#green {
+    color: green;
+}
+div {
+    width: 150px;
+    height: 150px;
+} */
+.bounce {
+    display: inline-block;
+    position: relative;
+    animation: bounce 1.25s infinite;
+    alternate;
+    color: blue;
+}
+.google {
+    display: flex;
+}
+@keyframes bounce {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 150px;
+    }
+}
+.bounce:nth-child(2) {
+    animation-delay: 0.2s;
+    color: red;
+}
+.bounce:nth-child(3) {
+    animation-delay: 0.4s;
+    color: yellow;
+}
+.bounce:nth-child(4) {
+    animation-delay: 0.6s;
+    color: blue;
+}
+.bounce:nth-child(5) {
+    animation-delay: 0.8s;
+    color: green;
+}
+.bounce:nth-child(6) {
+    animation-delay: 0.10s;
+    color: red;
+}
