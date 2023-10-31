@@ -1,0 +1,17 @@
+ /* body{
+     background-image: radial-gradient(white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black);
+     background-repeat: no-repeat;
+    background-size: 100% 480px;
+}  */
+  /* #pk{
+    width: 400px;
+    height: 400px;
+    background-image: radial-gradient(transparent,transparent,rgba(13,56,78,0.7),black),url(https://mc.webpcache.epapr.in/mcms.php?size=medium&in=https://mcmscache.epapr.in/post_images/website_49/post_35144327/thumb.jpg);
+    background-size: 100% 100%;
+} */
+div{
+    width: 800px;
+    height: 400px;
+     background-image: radial-gradient(circle,white 20%,black 50%,pink 30%);
+     background-image: radial-gradient(ellipse,plum 20%,black 50%,pink 30%); 
+} 

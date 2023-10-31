@@ -1,0 +1,14 @@
+ /* body {
+     background-image: linear-gradient(90deg,orange,white,green); 
+     background-image: linear-gradient(violet,indigo,blue,green,yellow,orange,red);
+    background-image: linear-gradient(75deg,#EE9CA7,#FFDDE1);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+} */
+
+#pk{
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(-75deg,orangered,transparent,transparent,purple),linear-gradient(75deg,red,transparent,transparent,blue),url(https://mc.webpcache.epapr.in/mcms.php?size=medium&in=https://mcmscache.epapr.in/post_images/website_49/post_35144327/thumb.jpg);
+    background-size: 100% 100%;
+} 

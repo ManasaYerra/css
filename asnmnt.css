@@ -1,0 +1,6 @@
+div{
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(-75deg,black,transparent,transparent,black),linear-gradient(75deg,black,transparent,transparent,black),radial-gradient(circle,transparent,transparent,transparent),url(../../asset/image/pluto.png);
+    background-size: 100% 100%;
+}
