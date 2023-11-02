@@ -1,0 +1,9 @@
+#a{
+    border: double pink 10px;
+}
+#b{
+    border-left: 5px solid brown;
+    border-right: 15px double orange;
+    border-top: 10px dashed gray;
+    border-bottom: 20px groove blueviolet;
+}

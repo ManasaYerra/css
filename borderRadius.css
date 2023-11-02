@@ -1,0 +1,47 @@
+ #a{
+    width: 200px;
+    height: 200px;
+    background-color: plum;
+    /* border-radius: 100%; */
+    /* border-radius: 30px 100%; */
+    border-radius: 30px 50px 400px 600px;
+} 
+#b{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    border-radius: 100% 5px;
+}
+#c{
+    width: 200px;
+    height: 200px;
+    background-color: palevioletred;
+    border-radius: 50px 0px;
+}
+#parent{
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+    border-radius: 100% ;
+}
+#child{
+    width: 300px;
+    height:230px ;
+    background-color: white;
+    border-radius:80px 80px 100% 100% ;
+
+}
+ #blue{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    float: left;
+    border-radius: 100% 0px 0px 100%;
+}
+#red{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    float: left;
+    border-radius: 0px 100% 100% 0px;
+}
