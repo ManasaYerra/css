@@ -1,50 +1,10 @@
-#solid{
-    border-style: solid;
-    border-width: 5px;
-    border-color: palevioletred;
-}
-#dashed{
-    border-style: dashed;
-    border-width: 5px;
-    border-color:green;
-}
-#double{
-    border-style: double;
-    border-width: 5px;
-    border-color: blue;
-}
-#dotted{
-    border-style: dotted;
-    border-width: 5px;
-    border-color: orange;
-}
-img{
-    width: 270px;
-    height: 200px;
-}
-#Ridge{
-    border-style: ridge;
-    border-width: 25px;
-    border-color: plum;
-}
-#Groove{
-    border-style: groove;
-    border-width: 25px;
-    border-color: plum;
-}
-#Inset{
-    border-style: inset;
-    border-width: 25px;
-    border-color: plum;
-}
-#Outset{
-    border-style: outset;
-    border-width: 25px;
-    border-color: plum;
-}
-input{
-    width: 500px;
-    height: 40px;
-    border: none;
-    background-color: teal;
+#a{
+    width: 370px;
+    height: 370px;
+    background-color: palevioletred;
+    /* border-radius: 84% 16% 70% 30% / 77% 12% 88% 23% ; */
+    /* border-radius: 84% 16% 70% 30% / 0% 12% 88% 100% ; */
+    border-radius: 49% 51% 100% 0% / 100% 100% 0% 0% ;
+    box-shadow: 50PX 50PX 0PX lightslategrey,-50PX -50PX 0PX teal,50px -50px 0px orange,-50px 50px 0px black;
+    /* box-shadow: 5PX 5PX 0PX lightslategrey,-5PX -5PX 0PX teal,5px -5px 0px orange,-5px 5px 0px black; */
 }
