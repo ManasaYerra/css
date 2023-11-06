@@ -1,0 +1,9 @@
+#a{
+    text-decoration: underline wavy orange;
+}
+#b{
+    text-decoration: overline underline line-through lightseagreen;
+}
+a{
+    text-decoration: none;
+}

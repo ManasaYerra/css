@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto+Slab&display=swap');
+h1{
+    font-size: 60px;
+    letter-spacing: 30px;
+    word-spacing: 50px;
+    font-style: italic;
+    font-family: 'Foldit', sans-serif;
+
+}
+h2{
+    font-size: 50px;
+    background-color: plum;
+    text-align: center;
+    text-transform: none;
+    font-weight: lighter;
+    font-family: 'Bungee Spice', sans-serif;
+}
+p{
+    font-size: 24px;
+    line-height: 60px;
+    text-align: justify;
+    text-indent: 200px;
+}

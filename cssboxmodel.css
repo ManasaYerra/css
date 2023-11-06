@@ -1,0 +1,21 @@
+/* #a{
+    border: 5px solid black;
+    background-color: plum;
+    /* padding-left: 45%; */
+    /* padding-top: 45%; */
+    /* padding-bottom: 45px; */
+    /* float: right;
+    padding-right: 45%; /*to check padding : right click on output and inspect.*/
+    /* padding-top: 45%; */
+/* } */
+#a{
+    border: 5px solid black;
+    background-color: plum;
+    /* float: left; */
+    /* margin-top: 20%;
+    margin-left: 40%; */
+    float: right;
+    margin-right: 40%;
+    margin-top: 20%;
+    
+}

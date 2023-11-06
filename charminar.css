@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#fi{
+    width: 400px;
+    height: 250px;
+    margin-top: 5%;
+    margin-left: 37%;
+    background-image: url(../../asset/image/charminar.avif);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    border: solid palegoldenrod 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+#le{
+    background-color: grey;
+    border: 2px solid orange;
+    border: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 1px pink;
+    color: orange;
+    border-radius: 10px;
+}
+#fi:hover{
+    background-position: 10px center;
+    background-size: 40%;
+}
+#heading{
+    float: right;
+    padding-right: 30px;
+    color: transparent;
+}
+p{
+    width: 200px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 150px;
+    color: transparent;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    padding-right: 5px;
+}
+#fi:hover>#heading{
+    color: plum;
+}
+#fi:hover>#le{
+    text-align: center;
+}
+#fi:hover>p{
+    color: powderblue;
+}
