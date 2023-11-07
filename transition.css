@@ -1,0 +1,12 @@
+#a{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    transition: width 0.5s,background-color 2s,border-radius 5s ;
+}
+#a:hover{
+    width: 500px;
+    height: 300px;
+    background-color: olivedrab;
+    border-radius: 70px 80px 120px 150px;
+}
