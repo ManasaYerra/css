@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    width: 300px;
+    height: 300px;
+    margin-top: 10%;
+    margin-left: 38%;
+    /* background-color: blueviolet; */
+}
+.petals{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(75deg,hotpink,hotpink,pink);
+    border-radius: 100% 0px 100% 0px;
+    position: absolute;
+    transform: rotate(-45deg);
+   /* border: 2px solid black; */
+   box-shadow: 2px 2px 5px purple;
+}
+#left2{
+    transform: rotate(-70deg) translate(-30px,-50px);
+    animation: left2 2s;
+}
+#right2{
+    transform: rotate(-20deg) translate(45px,25px);
+    z-index: 2;
+    animation: right2 2s;
+}
+#left1{
+    transform: rotate(-90deg) translate(-30px,-90px);
+    animation: left1 2s;
+}
+#right1{
+    transform: rotate(0deg) translate(85px,20px);
+    animation: right1 2s;
+}
+#center{
+    z-index: 3;
+}
+#flowerBud{
+    width: 120px;
+    height: 120px;
+    background-image: linear-gradient(0deg,darkgreen,lime,lawngreen);
+    position: absolute;
+    z-index: 5;
+    border-radius: 5px 5px 80px 80px;
+    bottom: 250px;
+    left: 41%;
+    animation: bud 2s;
+}
+@keyframes left1{
+    from{
+        transform: rotate(-45deg) translate(0px,0px);
+    }
+    to{
+        transform: rotate(-90deg) translate(-30px,-30px);
+    }
+}
+@keyframes right1{
+    from{
+        transform: rotate(-45deg) translate(0px,0px);
+    }
+    to{
+        transform: rotate(0deg) translate(85px,20px);
+    }
+}
+@keyframes left2{
+    from{
+        transform: rotate(-45deg) translate(0px,0px);
+    }
+    to{
+        transform: rotate(-70deg) translate(-30px,-30px);
+    }
+}
+@keyframes right2{
+    from{
+        transform: rotate(-45deg) translate(0px,0px);
+    }
+    to{
+        transform: rotate(-20deg) translate(45px,25px);
+    }
+}
