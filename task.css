@@ -1,21 +1,118 @@
-img{
-    width: 500px;
+*{
+    padding: 0px;
+    margin: 0px;
 }
-#Groove{
-    border-style: groove;
-    border-width: 15px;
-    border-color: plum;
+/* #container{
+    width: 100%;
+    height: 650px;
+} */
+video{
+    width: 100%;
+    /* height: 740px; */
+    position: absolute;
+    margin-top: -6%;
+    margin-bottom: 20%;
+    opacity: 0.5;
 }
-.picture{
+.a{
     width: 150px;
-    height: 100px;
-    border-radius: 10px;
-    margin-top: 150px;
-    margin-left: -100px;
-    transform: skewY(-45deg);
-    transition: all 2s ;
+    height: 150px;
+    /* background-color: green; */
+    position: absolute;
 }
-.picture:hover{
-    border-radius: 100%;
-    transform: rotate(0deg) skewY(0deg) scale(1.5) translateY(-50px);
+#b{
+    background-image: url(../../asset/image/Virat_Kohli.jpg),linear-gradient(75deg,black,white,black);
+    background-size: 100px 90px,150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10%;
+    margin-left: 65%;
+    border-radius: 10%;
+}
+#c{
+    background-image: url(../../asset/image/kohli.jpeg),linear-gradient(45deg,indigo,hotpink,indigo);
+    background-size: 50px 60px,150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10%;
+    margin-left: 85%;
+    border-radius: 10%;
+}
+#d{
+    background-image: url(../../asset/image/Kohli-1.avif),linear-gradient(65deg,blue,yellow,blue);
+    background-size: 80px 70px,150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 25%;
+    margin-left: 75%;
+    border-radius: 10%;
+}
+#e{
+    top: 10px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+h1{
+    text-align: center;
+}
+#f{
+    top: 10px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+#g{
+    top: 10px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+#name{
+    position: absolute;
+    color: black;
+    z-index: 2;
+    top: 220px;
+    left: 60px;
+    letter-spacing: 5px;
+    transform: translate(-600px);
+    animation: name 1s  0.5s  forwards;
+
+}
+h2{
+    position: absolute;
+    color: white;
+    z-index: 2;
+    top: 250px;
+    left: 100px;
+    letter-spacing: 5px;
+    transform: translate(-500px);
+    animation: pro 1s  1s  forwards ;
+}
+@keyframes pro {
+    from{
+        transform: translate(-500px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+@keyframes name {
+    from{
+        transform: translate(-500px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+
+#b:hover #m,#c:hover #n,#d:hover #o{
+    color: skyblue;
+    
+}
+#b:hover,#c:hover,#d:hover{
+    transform: scale(1.2);
 }
