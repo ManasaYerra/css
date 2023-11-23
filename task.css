@@ -2,117 +2,63 @@
     padding: 0px;
     margin: 0px;
 }
-/* #container{
+body{
     width: 100%;
-    height: 650px;
-} */
-video{
-    width: 100%;
-    /* height: 740px; */
-    position: absolute;
-    margin-top: -6%;
-    margin-bottom: 20%;
-    opacity: 0.5;
-}
-.a{
-    width: 150px;
-    height: 150px;
-    /* background-color: green; */
-    position: absolute;
-}
-#b{
-    background-image: url(../../asset/image/Virat_Kohli.jpg),linear-gradient(75deg,black,white,black);
-    background-size: 100px 90px,150px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 10%;
-    margin-left: 65%;
-    border-radius: 10%;
-}
-#c{
-    background-image: url(../../asset/image/kohli.jpeg),linear-gradient(45deg,indigo,hotpink,indigo);
-    background-size: 50px 60px,150px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 10%;
-    margin-left: 85%;
-    border-radius: 10%;
-}
-#d{
-    background-image: url(../../asset/image/Kohli-1.avif),linear-gradient(65deg,blue,yellow,blue);
-    background-size: 80px 70px,150px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 25%;
-    margin-left: 75%;
-    border-radius: 10%;
-}
-#e{
-    top: 10px;
-    left: 20px;
-    width: 100px;
-    height: 100px;
-    position: relative;
-}
-h1{
-    text-align: center;
-}
-#f{
-    top: 10px;
-    left: 20px;
-    width: 100px;
-    height: 100px;
-    position: relative;
-}
-#g{
-    top: 10px;
-    left: 20px;
-    width: 100px;
-    height: 100px;
-    position: relative;
-}
-#name{
-    position: absolute;
-    color: black;
-    z-index: 2;
-    top: 220px;
-    left: 60px;
-    letter-spacing: 5px;
-    transform: translate(-600px);
-    animation: name 1s  0.5s  forwards;
-
+    height: 770px;
+    background-color: black;
+    opacity: 0.7;
 }
 h2{
-    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(75deg,orange,yellow,orange);
+    font-size: 40px;
+    border-radius: 0% 100% 100% 0% / 44% 0% 100% 56%;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 20px;
+    letter-spacing: 10px;
+    text-shadow: 5px 5px 5px black;
+}
+h1{
     color: white;
-    z-index: 2;
-    top: 250px;
-    left: 100px;
+    font-size:100px;
+    top:2%;
+    left:15%;
+    position:absolute;
+    display: inline;
+    letter-spacing:10px;
+}
+h3{
+    color: orange;
+    text-indent: 70px;
+    font-size: 28px;
+    letter-spacing: 7px;
+}
+p{
+    color: white;
+    text-indent: 90px;
+    font-size: 21px;
+    letter-spacing: 7px;
+    margin-left: 40px;
+    line-height: 22px;
+}
+#types{
+    color: orange;
+}
+li{
+    color: white;
+    margin-left: 50px;
+    line-height: 29px;
     letter-spacing: 5px;
-    transform: translate(-500px);
-    animation: pro 1s  1s  forwards ;
 }
-@keyframes pro {
-    from{
-        transform: translate(-500px);
-    }
-    to{
-        transform: translate(0px);
-    }
-}
-@keyframes name {
-    from{
-        transform: translate(-500px);
-    }
-    to{
-        transform: translate(0px);
-    }
-}
-
-#b:hover #m,#c:hover #n,#d:hover #o{
-    color: skyblue;
-    
-}
-#b:hover,#c:hover,#d:hover{
-    transform: scale(1.2);
+#map{
+    position: fixed;
+    display: inline;
+    padding-left: 6%;
+    margin-left: 60%;
+    top: 0%;
+    clip-path: polygon(51% 0%, 100% 0%, 100% 100%, 0% 100%);
+    width: 530px;
+    height: 230px;
 }
