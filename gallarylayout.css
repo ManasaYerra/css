@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit&family=Great+Vibes&family=Kaushan+Script&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: plum;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 95%;
+    height: 95%;
+    background-color:thistle;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: start;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+img{
+    width: 220px;
+    height: 220px;
+    /* padding: 30px; */
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+img:hover{
+    transform:scale(1.2)
+}
+#text{
+    color:purple;
+    font-size: 60px;
+    position: absolute;
+    top: 30px;
+    font-family: 'Kaushan Script', cursive;
+}
